@@ -1,0 +1,263 @@
+[
+  {
+    "model": "book.author",
+    "pk": 1,
+    "fields": {
+      "name": "J K Rowling",
+      "biography": "British author of Harry Potter series."
+    }
+  },
+  {
+    "model": "book.author",
+    "pk": 2,
+    "fields": {
+      "name": "George Martin",
+      "biography": "Author of A Song of Ice and Fire."
+    }
+  },
+  {
+    "model": "book.author",
+    "pk": 3,
+    "fields": {
+      "name": "Paulo Coelho",
+      "biography": "Brazilian author of The Alchemist."
+    }
+  },
+  {
+    "model": "book.author",
+    "pk": 4,
+    "fields": {
+      "name": "Dan Brown",
+      "biography": "Author of The Da Vinci Code."
+    }
+  },
+  {
+    "model": "book.author",
+    "pk": 5,
+    "fields": {
+      "name": "Agatha Christie",
+      "biography": "Famous mystery writer."
+    }
+  },
+
+  {
+    "model": "book.book",
+    "pk": 1,
+    "fields": {
+      "title": "Harry Potter 1",
+      "author": 1,
+      "isbn": "ISBN001",
+      "category": "Fantasy",
+      "is_available": true
+    }
+  },
+  {
+    "model": "book.book",
+    "pk": 2,
+    "fields": {
+      "title": "Harry Potter 2",
+      "author": 1,
+      "isbn": "ISBN002",
+      "category": "Fantasy",
+      "is_available": true
+    }
+  },
+  {
+    "model": "book.book",
+    "pk": 3,
+    "fields": {
+      "title": "Fantastic Beasts",
+      "author": 1,
+      "isbn": "ISBN003",
+      "category": "Fantasy",
+      "is_available": true
+    }
+  },
+  {
+    "model": "book.book",
+    "pk": 4,
+    "fields": {
+      "title": "The Silkworm",
+      "author": 1,
+      "isbn": "ISBN004",
+      "category": "Crime",
+      "is_available": true
+    }
+  },
+  {
+    "model": "book.book",
+    "pk": 5,
+    "fields": {
+      "title": "Game of Thrones",
+      "author": 2,
+      "isbn": "ISBN005",
+      "category": "Fantasy",
+      "is_available": true
+    }
+  },
+  {
+    "model": "book.book",
+    "pk": 6,
+    "fields": {
+      "title": "Clash of Kings",
+      "author": 2,
+      "isbn": "ISBN006",
+      "category": "Fantasy",
+      "is_available": true
+    }
+  },
+  {
+    "model": "book.book",
+    "pk": 7,
+    "fields": {
+      "title": "Fire and Blood",
+      "author": 2,
+      "isbn": "ISBN007",
+      "category": "Fantasy",
+      "is_available": true
+    }
+  },
+  {
+    "model": "book.book",
+    "pk": 8,
+    "fields": {
+      "title": "The Alchemist",
+      "author": 3,
+      "isbn": "ISBN008",
+      "category": "Fiction",
+      "is_available": true
+    }
+  },
+  {
+    "model": "book.book",
+    "pk": 9,
+    "fields": {
+      "title": "Brida",
+      "author": 3,
+      "isbn": "ISBN009",
+      "category": "Fiction",
+      "is_available": true
+    }
+  },
+  {
+    "model": "book.book",
+    "pk": 10,
+    "fields": {
+      "title": "The Pilgrimage",
+      "author": 3,
+      "isbn": "ISBN010",
+      "category": "Fiction",
+      "is_available": true
+    }
+  },
+  {
+    "model": "book.book",
+    "pk": 11,
+    "fields": {
+      "title": "The Da Vinci Code",
+      "author": 4,
+      "isbn": "ISBN011",
+      "category": "Thriller",
+      "is_available": true
+    }
+  },
+  {
+    "model": "book.book",
+    "pk": 12,
+    "fields": {
+      "title": "Angels and Demons",
+      "author": 4,
+      "isbn": "ISBN012",
+      "category": "Thriller",
+      "is_available": true
+    }
+  },
+  {
+    "model": "book.book",
+    "pk": 13,
+    "fields": {
+      "title": "Inferno",
+      "author": 4,
+      "isbn": "ISBN013",
+      "category": "Thriller",
+      "is_available": true
+    }
+  },
+  {
+    "model": "book.book",
+    "pk": 14,
+    "fields": {
+      "title": "Digital Fortress",
+      "author": 4,
+      "isbn": "ISBN014",
+      "category": "Thriller",
+      "is_available": true
+    }
+  },
+  {
+    "model": "book.book",
+    "pk": 15,
+    "fields": {
+      "title": "Murder on the Orient Express",
+      "author": 5,
+      "isbn": "ISBN015",
+      "category": "Mystery",
+      "is_available": true
+    }
+  },
+  {
+    "model": "book.book",
+    "pk": 16,
+    "fields": {
+      "title": "Death on the Nile",
+      "author": 5,
+      "isbn": "ISBN016",
+      "category": "Mystery",
+      "is_available": true
+    }
+  },
+  {
+    "model": "book.book",
+    "pk": 17,
+    "fields": {
+      "title": "The ABC Murders",
+      "author": 5,
+      "isbn": "ISBN017",
+      "category": "Mystery",
+      "is_available": true
+    }
+  },
+  {
+    "model": "book.book",
+    "pk": 18,
+    "fields": {
+      "title": "Veronika Decides to Die",
+      "author": 3,
+      "isbn": "ISBN018",
+      "category": "Fiction",
+      "is_available": true
+    }
+  },
+  {
+    "model": "book.book",
+    "pk": 19,
+    "fields": {
+      "title": "Fantastic Beasts",
+      "author": 1,
+      "isbn": "ISBN019",
+      "category": "Fantasy",
+      "is_available": true
+    }
+  },
+  {
+    "model": "book.book",
+    "pk": 20,
+    "fields": {
+      "title": "The Casual Vacancy",
+      "author": 1,
+      "isbn": "ISBN020",
+      "category": "Drama",
+      "is_available": true
+    }
+  }
+]
